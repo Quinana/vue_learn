@@ -1,0 +1,69 @@
+.daily-nav{
+    width:100%;
+    height:60px;
+}
+.logo{
+    margin-left:150px;
+    height:45px;
+}
+.daily-nav-item{
+    margin-top: 15px;
+    width:100px;
+    height:30px;
+    border-radius: 4px;
+    background-color: #f0f9ff;
+    color: #008bed;
+    float:right;
+    margin-right:250px;
+}
+.daily-nav-item:hover{
+    background-color: #e3e8ee;
+    cursor: pointer;
+}
+.daily-nav-item span{
+    display:block;
+    padding:4px 0;
+    text-align: center;
+    font-size:16px;
+}
+.daily-list{
+    display: block;
+    position: fixed;
+    width:300px;
+    height:500px;
+    overflow: auto;
+    background-color: darkgray;
+}
+.daily-item{
+display: block;
+
+}
+.daily-item:hover{
+    background-color: #e3e8ee;
+    cursor: pointer;
+}
+.daily-img{
+    width:80px;
+    height:80px;
+    float:left;
+    padding:3px 3px;
+}
+.daily-title{
+display: inline-block;
+font-size: 12px;
+padding:3px 3px;
+}
+.daily-title.noImg{
+    padding-left:5px;
+}
+
+.daily-acticle{
+    overflow: auto;
+    display: block;
+    position:fixed;
+    width:500px;
+    height:500px;
+    background-color: darkkhaki;
+    margin-top: 50px;
+    padding: 20px;
+}
